@@ -1,0 +1,5 @@
+bintang=read.delim("clipboard")
+View(bintang)
+str(bintang)
+mean(bintang$Volume)
+t.test(bintang$volume, mu=14500)
